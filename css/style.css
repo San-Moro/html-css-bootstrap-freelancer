@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-.container-jumbo, .container-about, .container-form {
+.wrapper {
     width: 80%;
     margin: 0 auto;
 }
@@ -59,7 +59,7 @@ header h3, .hamburger, .menu {
     min-height: 400px;
 }
 
-.container-jumbo img {
+.wrapper img {
     width: 200px;
 }
 
@@ -156,4 +156,50 @@ input[type=button] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer-top {
+    width: 100%;
+    background-color: var(--bg-footer-top);
+    height: 300px;
+    color: white;
+}
+
+.footer-bottom {
+    width: 100%;
+    background-color: var(--bg-header);
+    height: 100px;
+    color: white;
+}
+
+.footer-bottom p {
+    line-height: 100px;
+}
+
+
+/* MEDIA QUERIES */
+/* Extra-small	0 */
+
+@media (min-width: 0) {
+    .footer-top .row {
+        flex-direction: column;
+    }
+}
+
+/* Small	sm	≥576px */
+
+@media screen and (min-width:576px) {
+    .footer-top .row {
+        flex-direction: column;
+    }
+}
+
+/* Medium	md	≥768px */
+
+@media screen and (min-width:768px) {
+    .footer-top .row {
+        flex-direction: row;
+    }
 }
