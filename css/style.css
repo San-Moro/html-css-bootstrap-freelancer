@@ -63,20 +63,34 @@ header h3, .hamburger, .menu {
     width: 200px;
 }
 
-/* icon-star-jumbo */
+/* icon-star-white */
 .icon-row {
     width: 30%;
     margin: 0 auto;
     justify-content: space-between;
 }
 
-hr.line-star {
+.line-white hr {
     border: 1px solid white;
     opacity: 1;
     width: 100%;
 }
 
-.star i {
+.star-white i {
     font-size: 2rem;
     color: white;
+}
+
+/* Portfolio section */
+
+/* icon-star-dark */
+.icon-row .line-dark hr {
+    border: 1px solid var(--bg-header);
+    opacity: 1;
+    width: 100%;
+}
+
+.star-dark i {
+    font-size: 2rem;
+    color: var(--bg-header);
 }
