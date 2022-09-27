@@ -11,6 +11,11 @@ a {
     text-decoration: none;
 }
 
+.container-jumbo, .container-about {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* VARIABLES */
 :root {
     /* colors */
@@ -54,11 +59,6 @@ header h3, .hamburger, .menu {
     min-height: 400px;
 }
 
-.container-jumbo {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .container-jumbo img {
     width: 200px;
 }
@@ -93,4 +93,34 @@ header h3, .hamburger, .menu {
 .star-dark i {
     font-size: 2rem;
     color: var(--bg-header);
+}
+
+/* About section */
+
+#about {
+    width: 100%;
+    background-color: var(--bg-section);
+}
+
+#about h2 {
+    color: white;
+}
+
+#about p {
+    color: white;
+    font-size: 1.6rem;
+}
+
+/* button white */
+
+.button-white {
+    border: .5px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
