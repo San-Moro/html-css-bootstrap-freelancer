@@ -44,3 +44,39 @@ header h3, .hamburger, .menu {
 .menu ul {
     list-style-type: none;
 }
+
+/* Jumbotron section */
+
+#jumbotron {
+    width: 100%;
+    background-color: var(--bg-section);
+    /* DEBUG */
+    min-height: 400px;
+}
+
+.container-jumbo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-jumbo img {
+    width: 200px;
+}
+
+/* icon-star-jumbo */
+.icon-row {
+    width: 30%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+hr.line-star {
+    border: 1px solid white;
+    opacity: 1;
+    width: 100%;
+}
+
+.star i {
+    font-size: 2rem;
+    color: white;
+}
