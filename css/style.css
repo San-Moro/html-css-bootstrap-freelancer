@@ -147,6 +147,13 @@ header h3, .hamburger, .menu {
     color: white;
 }
 
+#about .btn:first-child:hover, :not(.btn-check)+.btn:hover {
+    background-color: var(--bg-footer-top);
+}
+
+#about .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: var(--bg-footer-top);
+}
 
 /* Form section */
 
@@ -162,7 +169,6 @@ form .form-control {
     border-left: none;
     border-right: none;
     border-radius: 0px;
-
 }
 
 form .btn {
@@ -182,13 +188,37 @@ form .btn {
 
 /* FOOTER */
 
+/* footer-top */
 .footer-top {
     width: 100%;
     background-color: var(--bg-footer-top);
-    height: 300px;
     color: white;
 }
 
+/* social-icon-button */
+
+.footer-top a {
+    width: 50px;
+    color: white;
+    font-size: 1.6rem;
+    margin: .5em;
+    padding: .6em;
+}
+.footer-top .btn {
+    border: 1px solid white;
+    font-size: 1.7rem;
+}
+
+.footer-top .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: var(--bg-section);
+    border: none;
+}
+
+.footer-top .btn:first-child:hover, :not(.btn-check)+.btn:hover {
+    border-color: var(--bg-section);
+}
+
+/* footer-bottom */
 .footer-bottom {
     width: 100%;
     background-color: var(--bg-header);
@@ -198,6 +228,7 @@ form .btn {
 
 .footer-bottom p {
     line-height: 100px;
+    font-size: 1.2rem;
 }
 
 
