@@ -98,6 +98,10 @@ header h3, .hamburger, .menu {
 
 /* Portfolio section */
 
+#portfolio {
+    padding-bottom: 5em;
+}
+
 /* icon-star-dark */
 .icon-row .line-dark hr {
     border: 1px solid var(--bg-header);
@@ -110,11 +114,21 @@ header h3, .hamburger, .menu {
     color: var(--bg-header);
 }
 
+/* card */
+#portfolio .card {
+    border: none;
+}
+
+#portfolio .card img {
+    border-radius: 20px;
+}
+
 /* About section */
 
 #about {
     width: 100%;
     background-color: var(--bg-section);
+    padding-top: 3em;
 }
 
 #about h2 {
@@ -141,6 +155,10 @@ header h3, .hamburger, .menu {
 }
 
 /* Form section */
+
+#form-contact {
+    padding-top: 3em;
+}
 
 form input[type=text] {
     width: 100%;
