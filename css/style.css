@@ -37,17 +37,28 @@ header h3, .hamburger, .menu {
     line-height: 80px;
 }
 
+/* logo */
 .logo h3 {
     font-size: 2rem;
+    color: white;
 }
 
+/* menu */
 .hamburger {
     font-size: 2.5rem;
     justify-content: flex-end;
 }
 
-.menu ul {
-    list-style-type: none;
+.hamburger a {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--bg-section);
 }
 
 /* Jumbotron section */
