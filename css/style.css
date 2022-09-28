@@ -66,12 +66,16 @@ header h3, .hamburger, .menu {
 #jumbotron {
     width: 100%;
     background-color: var(--bg-section);
-    /* DEBUG */
-    min-height: 400px;
+    color: white;
 }
 
 .wrapper img {
     width: 200px;
+}
+
+#jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 /* icon-star-white */
